@@ -1,4 +1,4 @@
-{% load staticfiles %}
+<!--add 'load staticfiles' after registering-->
 <!doctype html>
 <html lang="en">
 
@@ -17,8 +17,8 @@
 
   {% include 'navbar.html' %}
 
-  <main>
-    <div class="container has-text-centered">
+  <main class="container has-text-centered">
+    <div>
       {% block content %}
       {% endblock %}
     </div>

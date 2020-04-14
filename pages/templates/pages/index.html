@@ -1,0 +1,85 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!--Job Seekers-->
+    <h2 class="is-size-2">Looking for a Job?</h2>
+        <h3 class="is-size-3">Job Seekers</h3>
+        <div class="field is-grouped is-grouped-centered">
+        <div class="field has-addons">
+            <div class="control">
+                <label class="label">Job Title</label>
+                <input class="input" type="text" placeholder="A job are you looking for">
+            </div>
+            <div class="control">
+                <label class="label">Add</label>
+                <a class="button is-info">+</a>
+            </div>
+        </div>
+        <div class="field has-addons">
+            <div class="control">
+                <label class="label">Skills </label>
+                <input class="input" type="text" placeholder="A skill you have">
+            </div>
+            <div class="control">
+                <label class="label">Add</label>
+                <a class="button is-info">+</a>
+            </div>
+        </div>
+        <div class="field has-addons">
+            <div class="control">
+                <label class="label">Qualification</label>
+                <input class="input" type="text" placeholder="Qualification"> <!--Experience / Certificate / Course / Degree-->
+            </div>
+            <div class="control">
+                <label class="label">Add</label>
+                <a class="button is-info">+</a>
+            </div>
+        </div>
+    </div>
+
+<hr>
+
+<!--Hiring-->
+    <h2 class="is-size-2">Looking to Hire?</h2>
+        <!--<h3 class="is-size-3">Businesses & Recruiting Agencies</h3> do they have different needs/wants?--> 
+            
+            <h4 class="is-size-4">Search</h4>
+            <div class="field is-grouped is-grouped-centered">
+                <p class="control">
+                    <label class="label">Desired Skill(s)</label>
+                    <input class="input is-primary" type="text" placeholder="Skill(s)">
+                </p>
+                <p class="control">
+                    <label class="label">Job Title</label>
+                    <input class="input is-primary" type="text" placeholder="Job Title">
+                </p>
+                <p class="control">
+                    <label class="label">Where?</label>
+                    <input class="input is-primary" type="text" placeholder="Location">
+                </p>
+                <p class="control">
+                    <label class="label">Search</label>
+                    <a class="button is-info">Search</a>
+                </p>
+            </div>
+            <h5 class="is-size-5">OR</h4>
+            <div class="field is-grouped is-grouped-centered">
+                <p class="control">
+                    <a class="button is-info">Just Show Me Everyone!</a>
+                </p>
+            </div>
+
+<hr>
+
+        <h3 class="is-size-5">Coming Soon!</h3>
+            <ul>
+                <li>Login w/ LinkedIn</li>
+                <li>Login w/ Google</li>
+                <li>Import Skills from LinkedIn (seekers)</li>
+                <li>Create search templates (hirers)</li>
+                <li>Advanced Search (hirers)</li>
+            </ul>
+
+{% endblock %}
