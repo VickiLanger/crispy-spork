@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Listing, Skill, Job_Title
+from .models import Listing
 
 
 # Register your models here.
@@ -10,4 +10,4 @@ class ListingAdmin(admin.ModelAdmin):
     list_filter = ['job_title', 'location', 'availability']
 
 
-admin.site.register(Listing, ListingAdmin, Skill, Job_Title)
+admin.site.register(Listing, ListingAdmin)
