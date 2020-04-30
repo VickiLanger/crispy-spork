@@ -24,3 +24,10 @@ class Listing(models.Model):
 
     def __str__(self):
         return self.job_title
+
+
+class Skill():
+    pass
+
+class Job_Title():
+    pass
