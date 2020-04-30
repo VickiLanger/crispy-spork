@@ -29,5 +29,6 @@ class Listing(models.Model):
 class Skill():
     pass
 
+
 class Job_Title():
     pass
